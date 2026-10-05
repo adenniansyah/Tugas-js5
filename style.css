@@ -1,0 +1,91 @@
+/* ============================================
+   STYLE UNTUK MANAJEMEN PRODUK TOKO ONLINE
+   ============================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Style untuk Form */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style untuk Tombol Hapus */
+.btn-hapus {
+    background-color: #e74c3c;
+    padding: 5px 12px;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.btn-hapus:hover {
+    background-color: #c0392b;
+}
+
+/* Style untuk Daftar Produk */
+#daftar-produk {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produk-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.produk-item:last-child {
+    border-bottom: none;
+}
+
+.kosong {
+    color: #999;
+    font-style: italic;
+}
